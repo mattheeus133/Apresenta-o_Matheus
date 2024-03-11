@@ -1,0 +1,141 @@
+:root{
+    --Cor-fundo:  rgba(72, 72, 72, 0.38);
+}
+body{
+    margin: 0;
+    background: var(--Cor-fundo);
+}
+
+/*Inicio Header*/
+header{
+    padding-top: 30px ;
+    padding-bottom: 30px ;
+}
+
+ul{
+    margin: 0;
+    padding: 30;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 30px;
+    flex-direction: row;
+    color: aliceblue;
+}
+
+li:hover{
+    background: rgba(189, 0, 0, 0.59);
+}
+/*Fim do Header*/
+
+/*Inicio Primeiro Conteudo*/
+#PrimeiroConteudo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+    
+}
+
+.Saudacao{
+    font-size: 100px;
+    color: aliceblue;
+}
+/*Fim Primeiro Conteudo*/
+
+/*Inicio Segundo Conteudo*/
+#SegundoConteudo{
+    padding: 0 130px;
+    margin-bottom: 40px;
+}
+
+#txtSobre{
+    margin-left: 10%;
+}
+
+.Conhecimento{
+
+    margin: 0 10%;
+}
+
+
+/*Fim do Segundo conteudo*/
+
+/*Inicio do SegundoConteudoParte2*/
+
+ .txtConhecimento{
+    margin-left: 10%;
+ }
+
+ .atributos{
+    color: black;
+
+}
+
+.atributos:hover{
+    background:  rgba(189, 0, 0, 0.59);
+    color: aliceblue;
+}
+
+/*Inicio Terceiro conteudo*/
+#TerceiroConteudo{
+    width: 100%;
+}
+
+
+
+#Cards{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.TxtPortifolio{
+    margin-left: 10% ;
+}
+
+.card-text, .card-title{
+    color: black;
+}
+
+.Cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.38);
+    margin: 1%;
+    width: 324px;
+}
+
+.caixa1{
+   height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.avatar{
+    width: 200px;
+}
+
+.rodape{
+}
+
+.txtContato{
+    margin-left: 10%;
+}
+
+.dadosRodape{
+    text-align: center;
+}

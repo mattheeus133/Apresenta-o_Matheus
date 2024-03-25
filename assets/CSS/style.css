@@ -56,6 +56,10 @@ li:hover{
     margin-bottom: 40px;
 }
 
+.infos{
+    
+}
+
 #txtSobre{
     margin-left: 10%;
 }
@@ -83,6 +87,8 @@ li:hover{
     background:  rgba(189, 0, 0, 0.59);
     color: aliceblue;
 }
+/*Fim do SegundoConteudoParte2 */
+
 
 /*Inicio Terceiro conteudo*/
 #TerceiroConteudo{

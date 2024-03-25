@@ -71,7 +71,7 @@ li:hover{
 
 .infos{
 
-    width: 400px;
+    width: 100%;
     text-align: center;
 
 }
@@ -103,7 +103,7 @@ li:hover{
 
 .card{
     margin-left: 10px;
-    width: 200px;
+    width: 150px;
 }
 
 
